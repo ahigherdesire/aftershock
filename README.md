@@ -2,11 +2,17 @@
 
 A complete, dependency-free browser block puzzle with delayed gravity and cascading clears.
 
+**[Play Aftershock](https://ahigherdesire.github.io/aftershock/)** · [Source code](https://github.com/ahigherdesire/aftershock)
+
+No download or account is needed. Scores and progress are saved in your browser on each site separately.
+
 ## Run
 
 From this directory, run `npm run dev`, then open http://127.0.0.1:4174.
 
 Run `npm test` for the pure game-engine tests. The `dist` folder is the deployable static application; no build step is needed.
+
+Pushes to `main` run the engine tests and publish `dist` to GitHub Pages through `.github/workflows/pages.yml`. A failing test prevents publication.
 
 ## Play
 
